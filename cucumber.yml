@@ -1,0 +1,3 @@
+---
+ci: --format pretty --out cukes.txt --format html --out cukes.html --format junit --out junit --tags ~@wip --tags ~@disabled --strict
+all: --format pretty --color --strict
